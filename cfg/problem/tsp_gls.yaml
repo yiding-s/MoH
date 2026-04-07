@@ -1,0 +1,9 @@
+problem_name: tsp_gls
+obj_type: min
+problem_size: [100, 200]
+threshold: 
+  100: 4
+  200: 5
+
+func_name: heuristics
+description: Solving Traveling Salesman Problem (TSP) via guided local search. TSP requires finding the shortest path that visits all given nodes and returns to the starting node.

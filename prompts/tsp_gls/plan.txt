@@ -1,0 +1,9 @@
+Provide several high-level directions for improving the heuristic solution to the TSP problem and corresponding utility above, each aimed at minimizing utility as a result. You can choose to propose suggestions to improve the current solution (Start with label 'Refinement') or propose alternative novel approaches (Start with label 'Innovation'). Format your response as a JSON codeblock below, including the appropriate label for each suggestion.
+{{
+"direction": [
+    {{"content": "Refinement: Your first piece of direction suggestion here."}},
+    {{"content": "Refinement: Your second piece of direction suggestion here."}},
+    {{"content": "Innovation: Your third piece of direction suggestion here."}},
+    {{"content": "Innovation: Your fourth piece of direction suggestion here."}}
+]
+}}

@@ -1,0 +1,21 @@
+[project]
+name = "moh"
+version = "0.1.0"
+description = "Meta-optimizer of Heuristics"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "tqdm",
+    "hydra-core",
+    "omegaconf",
+    "openai",
+    "numba",
+    "func-timeout",
+    "hydra-colorlog>=1.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]

@@ -1,0 +1,1 @@
+Your task is to calculate the number of iterations the outer loop will perform, focusing on the behavior and parameters of any for loops, while loops, or similar constructs within the function. Please give your analysis step by step and put your final result in an integer in a txt codeblock. Here is the code snippet: {code}

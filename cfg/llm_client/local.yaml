@@ -1,0 +1,7 @@
+_target_: utils.llm_client.openai.OpenAIClient
+
+model: qwen3_14b
+temperature: 1.0
+batch_size: 5
+base_url: http://localhost:8000/v1
+api_key: ${null}

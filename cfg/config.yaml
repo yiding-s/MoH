@@ -1,0 +1,22 @@
+defaults:
+  - _self_
+  - problem: tsp_gls
+  - llm_client@heu: openai
+  - llm_client@meta: openai
+  
+  - override hydra/output: local
+  - override hydra/job_logging: colorlog
+  - override hydra/hydra_logging: colorlog
+
+hydra:
+  job:
+    name: ${problem.problem_name}-${problem.problem_size}
+    chdir: True
+
+
+
+
+n_iterations: 10              # ← config["n_iterations"]
+pop_size: 10                  # ← config["population_size"]
+timeout: 90                   # ← per-heuristic evaluation timeout (seconds)
+max_eval_calls: 1000           # per-subtask eval budget, total = this × N_subtasks. -1 for unlimited
