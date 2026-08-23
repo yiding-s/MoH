@@ -454,6 +454,7 @@ class MoH:
                 self.algorithm_to_improve = new_algorithm_str
                 previous_algorithm = improver
                 exec(self.improver_str, globals())
+                improver = improve_algorithm
             else:
                 logger.info("Failed to improve algorithm, reverting to previous version")
                 best_solution = self.improver_pop.get_best_solution("meta-optimizer")["best_sol"]
